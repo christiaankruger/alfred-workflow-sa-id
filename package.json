@@ -1,0 +1,19 @@
+{
+  "name": "fake-id",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "alfy-init && (yarn build)",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "^0.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "typescript": "^3.6.3"
+  }
+}
